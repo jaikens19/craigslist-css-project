@@ -59,3 +59,38 @@ a > span:hover, a > span:visited{
   font-weight: bold;
 }
 
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar {
+  float: left;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%
+}
+
+#topban h2 {
+  text-align: center;  
+}
