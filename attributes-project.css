@@ -31,3 +31,31 @@ p.more {
 }
 
 /* Write your CSS here. */
+
+* {
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  background-color: #f5f5f5;
+  color: #464646;
+}
+
+li a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a:hover, a:visited > span{
+  color: #800080;
+  font-weight: bold;
+}
+a > span:hover, a > span:visited{
+  color: #800080;
+  font-weight: bold;
+}
+
