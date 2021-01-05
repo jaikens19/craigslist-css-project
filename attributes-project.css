@@ -36,6 +36,7 @@ p.more {
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   background-color: #f5f5f5;
   color: #464646;
+  text-decoration: none;
 }
 
 li a {
@@ -93,4 +94,41 @@ footer {
 
 #topban h2 {
   text-align: center;  
+}
+
+.clfooter {
+  text-align: center;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.clfooter > li {
+  display: inline;
+  padding: 5px;
+}
+
+h4::before {
+  content: "☮️ ";
+}
+
+td {
+  border-collapse: 1px solid #333;
+  text-align: center;
+}
+
+td a[href] {
+  color: green;
+  font-weight: bold;
+}
+
+.past {
+  color: rgba(0, 0, 0, .5);
+}
+
+.today {
+  background-color: darkviolet;
+  color: white;
 }
